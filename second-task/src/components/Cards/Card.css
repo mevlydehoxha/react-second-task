@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem 0 0 2rem;
+    width:25rem;
+    border-radius: .7rem;
+    font-size: 1rem;
+    background-color: rgb(247, 241, 241);
+    font-family: 'Century Gothic';
+}
+.domain{
+    margin:2rem;
+    font-weight: normal;
+}
+.price{
+    margin-bottom:2rem;
+    font-weight: normal;  
+}
+.description{
+    position: relative;
+    bottom:2rem;
+    color:rgb(105, 100, 100);
+}
+.buy-button{
+    width:20rem;
+    height:3rem;
+    border-radius: .4rem;
+    margin:0 0 1rem 0;
+    background-color: transparent;
+    border:.1rem solid rgb(39, 161, 170);
+    color:rgb(39, 161, 170);
+    font-size: 1.2rem;
+    position: relative;
+    bottom:1rem;
+}
+.buy-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
