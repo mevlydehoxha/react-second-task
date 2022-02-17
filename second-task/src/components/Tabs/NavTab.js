@@ -1,7 +1,14 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import './NavTab.css';
-import  HomeCards from '../../Home/HomeCards';
+import  Domain from '../../CardsContent/Domain';
+import WebHosting from '../../CardsContent/WebHosting';
+import DedicatedServers from '../../CardsContent/DedicatedServers';
+import VirtualCloudServices from '../../CardsContent/VirtualCloudServices';
+import WordPressHosting from '../../CardsContent/WordPressHosting';
+import EmailHosting from '../../CardsContent/EmailHosting';
+import VPSHostingServers from '../../CardsContent/VPSHostingServers';
+import FreeHosting from '../../CardsContent/FreeHosting';
 
 function NavTab() {
   return (
@@ -36,42 +43,42 @@ function NavTab() {
 
         <TabPanel>
           <div className="panel-content">
-            <HomeCards/>
+            <Domain/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content2</h2>
+            <WebHosting/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content3</h2>
+           <DedicatedServers/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content4</h2>
+            <VirtualCloudServices/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content5</h2>
+            <WordPressHosting/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content6</h2>
+            <EmailHosting/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content7</h2>
+            <VPSHostingServers/>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="panel-content">
-            <h2>Content8</h2>
+            <FreeHosting/>
           </div>
         </TabPanel>
       </Tabs>

@@ -1,6 +1,5 @@
 import Tabs from './components/Tabs/NavTab';
 import Card from './components/Cards/Card';
-import HomeCards from './Home/HomeCards';
 import './App.css';
 
 function App() {
