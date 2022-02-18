@@ -10,7 +10,10 @@
     font-family: 'Century Gothic';
     cursor: pointer;
 }
-.domain{
+.container:hover{
+    opacity: 0.6;
+}
+.tab_title{
     margin:2rem;
     font-weight: normal;
 }

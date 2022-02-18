@@ -3,49 +3,49 @@ import './CardsContentStyles.css';
 
 const card_data=[{
     id:'1',
-    domain:'InMotion',
+    tab_title:'InMotion',
     price:'99.99',
     description:'10.99',
 },
 {
     id:'2',
-    domain:'HostGator',
+    tab_title:'HostGator',
     price:'89.98',
     description:'10.99',
 },
 {
     id:'3',
-    domain:'BlueHost',
+    tab_title:'BlueHost',
     price:'79.99',
     description:'10.99',
 },
 {
     id:'4',
-    domain:'A2 Hosting',
+    tab_title:'A2 Hosting',
     price:'179.99',
     description:'10.99',
 },
 {
     id:'5',
-    domain:'LiquidWeb',
+    tab_title:'LiquidWeb',
     price:'99.99',
     description:'10.99',
 },
 {
     id:'6',
-    domain:'iPage',
+    tab_title:'iPage',
     price:'119.99',
     description:'10.99',
 },
 {
     id:'7',
-    domain:'DreamHost',
+    tab_title:'DreamHost',
     price:'149.99',
     description:'10.99',
 },
 {
     id:'8',
-    domain:'HostWinds',
+    tab_title:'HostWinds',
     price:'162.00',
     description:'10.99',
 }];
@@ -56,7 +56,7 @@ function DedicatedServers(){
             <div className="HomeCard">
                 {card_data.map((data)=>
                 <div key={data.id}>
-                    <Card domain={data.domain} price={data.price} description={data.description}/>
+                    <Card tab_title={data.tab_title} price={data.price} description={data.description}/>
                 </div>
                 )}
             </div>

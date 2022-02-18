@@ -3,49 +3,49 @@ import './CardsContentStyles.css';
 
 const card_data=[{
     id:'1',
-    domain:'InfinityFree',
+    tab_title:'InfinityFree',
     price:'0',
     description:'0',
 },
 {
     id:'2',
-    domain:'Wix',
+    tab_title:'Wix',
     price:'0',
     description:'0',
 },
 {
     id:'3',
-    domain:'000WebHost',
+    tab_title:'000WebHost',
     price:'0',
     description:'0',
 },
 {
     id:'4',
-    domain:'Google Cloud Hosting',
+    tab_title:'Google Cloud Hosting',
     price:'0',
     description:'0',
 },
 {
     id:'5',
-    domain:'AwardSpace',
+    tab_title:'AwardSpace',
     price:'0',
     description:'0',
 },
 {
     id:'6',
-    domain:'Freehostia',
+    tab_title:'Freehostia',
     price:'0',
     description:'0',
 },
 {
     id:'7',
-    domain:'FreeHosting',
+    tab_title:'FreeHosting',
     price:'0',
     description:'0',
 },
 {
     id:'8',
-    domain:'ByetHost',
+    tab_title:'ByetHost',
     price:'0',
     description:'0',
 }];
@@ -56,7 +56,7 @@ function FreeHosting(){
             <div className="HomeCard">
                 {card_data.map((data)=>
                 <div key={data.id}>
-                    <Card domain={data.domain} price={data.price} description={data.description}/>
+                    <Card tab_title={data.tab_title} price={data.price} description={data.description}/>
                 </div>
                 )}
             </div>

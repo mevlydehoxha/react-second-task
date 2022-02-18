@@ -3,49 +3,49 @@ import './CardsContentStyles.css';
 
 const card_data=[{
     id:'1',
-    domain:'.COM',
+    tab_title:'.COM',
     price:'5.99',
     description:'10.99',
 },
 {
     id:'2',
-    domain:'.AI',
+    tab_title:'.AI',
     price:'55.99',
     description:'10.99',
 },
 {
     id:'3',
-    domain:'.NET',
+    tab_title:'.NET',
     price:'7.99',
     description:'10.99',
 },
 {
     id:'4',
-    domain:'.HEALTH',
+    tab_title:'.HEALTH',
     price:'7.99',
     description:'10.99',
 },
 {
     id:'5',
-    domain:'.CO.UK',
+    tab_title:'.CO.UK',
     price:'3.99',
     description:'10.99',
 },
 {
     id:'6',
-    domain:'.ORG',
+    tab_title:'.ORG',
     price:'15.99',
     description:'10.99',
 },
 {
     id:'7',
-    domain:'.CO',
+    tab_title:'.CO',
     price:'26.33',
     description:'10.99',
 },
 {
     id:'8',
-    domain:'.SEA',
+    tab_title:'.SEA',
     price:'26.33',
     description:'10.99',
 }];
@@ -56,7 +56,7 @@ function Domains(){
             <div className="HomeCard">
                 {card_data.map((data)=>
                 <div key={data.id}>
-                    <Card domain={data.domain} price={data.price} description={data.description}/>
+                    <Card tab_title={data.tab_title} price={data.price} description={data.description}/>
                 </div>
                 )}
             </div>

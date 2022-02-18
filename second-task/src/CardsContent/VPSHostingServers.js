@@ -3,49 +3,49 @@ import './CardsContentStyles.css';
 
 const card_data=[{
     id:'1',
-    domain:'Hostinger',
+    tab_title:'Hostinger',
     price:'12.99',
     description:'10.99',
 },
 {
     id:'2',
-    domain:'Kamatera',
+    tab_title:'Kamatera',
     price:'48.95',
     description:'10.99',
 },
 {
     id:'3',
-    domain:'WebHostingPad',
+    tab_title:'WebHostingPad',
     price:'40',
     description:'10.99',
 },
 {
     id:'4',
-    domain:'NetworkSolutions',
+    tab_title:'NetworkSolutions',
     price:'12.45',
     description:'10.99',
 },
 {
     id:'5',
-    domain:'HostPapa',
+    tab_title:'HostPapa',
     price:'39.95',
     description:'10.99',
 },
 {
     id:'6',
-    domain:'A2 Hosting',
+    tab_title:'A2 Hosting',
     price:'40.95',
     description:'10.99',
 },
 {
     id:'7',
-    domain:'iPage',
+    tab_title:'iPage',
     price:'21.99',
     description:'10.99',
 },
 {
     id:'8',
-    domain:'iDrive Compute',
+    tab_title:'iDrive Compute',
     price:'6',
     description:'10.99',
 }];
@@ -56,7 +56,7 @@ function VPSHostingServers(){
             <div className="HomeCard">
                 {card_data.map((data)=>
                 <div key={data.id}>
-                    <Card domain={data.domain} price={data.price} description={data.description}/>
+                    <Card tab_title={data.tab_title} price={data.price} description={data.description}/>
                 </div>
                 )}
             </div>

@@ -23,6 +23,9 @@
     color: rgb(134, 128, 128);
     font-size: 1.2rem;
   }
+  .react-tabs__tab:hover{
+    opacity:0.5;
+  }
   
   .react-tabs__tab--selected {
     border-bottom: .2rem solid #67b3e6;
